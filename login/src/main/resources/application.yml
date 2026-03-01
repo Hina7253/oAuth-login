@@ -34,4 +34,9 @@ spring:
                client-name: LinkedIn
 
                provider:
+                 linkedin:
+                   authorization-uri: https://www.linkedin.com/oauth/v2/authorization
+                   token-uri: https://www.linkedin.com/oauth/v2/accessToken
+                   user-info-uri: https://api.linkedin.com/v2/me
+                   user-name-attribute: id
 
