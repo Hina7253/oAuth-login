@@ -17,5 +17,15 @@ public class CustomOAuth2UserService
         throws OAuth2AuthenticationException{
 
         OAuth2User oauthUser = super.loadUser(request);
+
+        String provider =
+                request.getClientRegistration().getRegistrationId();
+
+        Map(String, Object) attributes = oauthUser.getAttributes();
+
+        String name = "";
+        String email = "";
+
+        // Github User Data
     }
 }
