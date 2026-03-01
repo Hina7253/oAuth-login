@@ -19,4 +19,5 @@ public class User {
     private String provider; // github or linkedin
 
     // getters setters
+
 }
