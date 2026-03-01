@@ -18,8 +18,20 @@ spring:
 
               github:
                 client-id:
-                  client-secret:
-                    scope:
-                      - read-user:
-                      - user-email:
+                client-secret:
+                scope:
+                  - read-user:
+                  - user-email:
+
+              linkedin:
+               client-id:
+               client-secret:
+               authorization-grant-type:
+               redirect-uri:
+               scope:
+                 - r_liteprofile:
+                 - r_emailaddress:
+               client-name: LinkedIn
+
+               provider:
 
