@@ -1,2 +1,3 @@
-﻿# oAuth-login(only
+﻿# oAuth-login(only for Github and LinkedIn
+
 
