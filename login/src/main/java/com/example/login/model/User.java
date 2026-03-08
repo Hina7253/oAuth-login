@@ -18,7 +18,7 @@ public class User {
     private String email;
     private String provider; // github or linkedin
 
-    // getters setters
+   
 
     public Long getId() {
         return id;
